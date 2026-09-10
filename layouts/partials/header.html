@@ -1,0 +1,12 @@
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a href="{{ "/" | relURL }}" class="logo">
+      <img src="{{ "images/logo-icon.png" | relURL }}" alt="Website Growth Partner logo" class="logo-icon"> Website Growth Partner
+    </a>
+    <nav class="nav">
+      {{ range .Site.Menus.main }}<a href="{{ .URL }}">{{ .Name }}</a>{{ end }}
+      <a href="#contact" class="btn btn-primary">Start a project</a>
+    </nav>
+    <button class="nav-toggle" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </div>
+</header>

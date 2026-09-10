@@ -1,0 +1,38 @@
+baseURL = "https://websitegrowthpartner.com/"
+languageCode = "en-us"
+title = "Website Growth Partner"
+
+[params]
+  description = "AI-powered websites that grow your business. I design and build fast, modern, AI-driven websites engineered to get you found, chosen, and growing."
+  email = "contact@websitegrowthpartner.com"
+  tagline = "AI-Powered Websites for Growing Businesses"
+
+[menus]
+  [[menus.main]]
+    name = "What I Build"
+    url = "#services"
+    weight = 10
+  [[menus.main]]
+    name = "Process"
+    url = "#process"
+    weight = 20
+  [[menus.main]]
+    name = "About"
+    url = "#about"
+    weight = 30
+  [[menus.main]]
+    name = "Reviews"
+    url = "#testimonial"
+    weight = 35
+  [[menus.main]]
+    name = "Contact"
+    url = "#contact"
+    weight = 40
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.html]
+      keepQuotes = true

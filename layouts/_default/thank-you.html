@@ -1,0 +1,10 @@
+{{ define "main" }}
+<section class="section" style="min-height:60vh; display:flex; align-items:center; justify-content:center; text-align:center;">
+  <div class="wrap" style="max-width:640px;">
+    <span class="eyebrow" style="justify-content:center;">Message received</span>
+    <h1 style="font-size:clamp(2.2rem,4vw,3.2rem); margin-bottom:20px;">Thank you — I'll be in touch soon.</h1>
+    <p style="font-size:1.2rem; color:var(--text-mut); margin-bottom:34px;">Thanks for reaching out. I read every message myself, and I'll get back to you personally — usually within a day. In the meantime, feel free to head back and look around.</p>
+    <a href="{{ "/" | relURL }}" class="btn btn-primary">Back to home</a>
+  </div>
+</section>
+{{ end }}

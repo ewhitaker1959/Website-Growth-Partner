@@ -1,0 +1,28 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a href="{{ "/" | relURL }}" class="logo"><img src="{{ "images/logo-icon.png" | relURL }}" alt="Website Growth Partner logo" class="logo-icon"> Website Growth Partner</a>
+        <p>AI-powered websites engineered to get your business found, chosen, and growing.</p>
+      </div>
+      <div class="footer-nav">
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <a href="#services">What I Build</a>
+          <a href="#process">Process</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-col">
+          <h4>Get Started</h4>
+          <a href="mailto:{{ .Site.Params.email }}">Email me</a>
+          <a href="#contact">Start a project</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; {{ now.Year }} Website Growth Partner</span>
+      <span>Engineered for growth.</span>
+    </div>
+  </div>
+</footer>

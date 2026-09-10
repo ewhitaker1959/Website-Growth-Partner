@@ -1,0 +1,14 @@
+{{ if .IsHome }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "Website Growth Partner",
+  "description": "{{ .Site.Params.description }}",
+  "url": "{{ .Site.BaseURL }}",
+  "email": "{{ .Site.Params.email }}",
+  "areaServed": "United States",
+  "serviceType": ["AI Website Development", "Search Engine Optimization", "Website Design", "Business Growth Strategy"]
+}
+</script>
+{{ end }}
